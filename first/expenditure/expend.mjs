@@ -1,3 +1,4 @@
+// []
 const expend = {
   coffe: [160, 170],
   riceBowl: 240,
