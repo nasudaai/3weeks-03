@@ -8,3 +8,6 @@ for (let i = 0; i < keys.length; i++) {
 }
 
 console.log(obj);
+
+const jsonTemplate = JSON.stringify(obj);
+console.log(jsonTemplate);
