@@ -3,6 +3,12 @@ const args = process.argv.slice(2);
 
 console.log(args);
 
+
+function outString() {
+  
+  process.stdout.write("write" + "\n");
+}
+
 function reJson(arg) {
   
   const json = JSON.stringify(arg);
@@ -14,6 +20,7 @@ console.log(json);
 
 function main() {
   console.log("main");
+  outString();
 }
 
 main();
