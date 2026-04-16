@@ -15,6 +15,10 @@ function reJson(arg) {
 
 function main() {
   console.log("main");
+
+  const json = reJson(args);
+  console.log(json);
+
   outString();
 }
 
