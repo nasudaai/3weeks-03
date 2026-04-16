@@ -1,8 +1,4 @@
 const args = process.argv.slice(2);
-//console.log("test");
-
-console.log(args);
-
 
 function outString() {
   
@@ -15,8 +11,7 @@ function reJson(arg) {
   return json;
 }
 
-const json = reJson(args);
-console.log(json);
+
 
 function main() {
   console.log("main");
