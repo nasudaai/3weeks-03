@@ -1,8 +1,12 @@
 function outStr(arg) {
+
+  if (typeof arg === "string") {
+    console.log("string");
+  }
   process.stdout.write(arg + "\n");
 }
 
-outStr("str");
+//outStr("str");
 
 function main() {
 
