@@ -1,3 +1,5 @@
+const arg = process.argv[2];
+
 function outStr(arg) {
 
   if (typeof arg === "string") {
@@ -16,6 +18,7 @@ function main() {
 
   outStr("test main");
   outStr([1, 2, 3]);
+  outStr(arg);
 }
 
 main();
